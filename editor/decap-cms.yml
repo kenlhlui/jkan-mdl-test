@@ -3,6 +3,7 @@
 
 backend:
   name: github
+  base_url: https://mdl-gudies-test-oauth.vercel.app/
 
 media_folder: "img/uploads"
 
