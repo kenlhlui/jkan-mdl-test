@@ -1,7 +1,6 @@
 ---
-name: Transportation
-logo: "/img/categories/transportation.svg"
-# spell-checker: disable
-logo_credit: Dmitry Baranovskiy from the Noun Project
+name: SQL
+logo: /img/categories/sql_data_base_with_logo.svg.png
+logo_credit: https://commons.wikimedia.org/wiki/File:Sql_data_base_with_logo.svg
 featured: true
 ---
