@@ -6,4 +6,5 @@ notes: "A guide for Getting Started with the Canadian Intellectual Property
 resources:
   - url: https://kenlhlui.github.io/93-CIPO-Patent-PostgreSQL-Database/
     name: Guide Link
+external_url: https://kenlhlui.github.io/93-CIPO-Patent-PostgreSQL-Database/
 ---
