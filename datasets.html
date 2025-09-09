@@ -39,11 +39,7 @@ permalink: /datasets/
     <div data-hook="datasets-items">
       {% for dataset in site.datasets %}
       <dataset>
-        <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
-        {{ dataset.notes | markdownify }}
-        {%- assign first_res = dataset.resources | first -%}
-        {%- assign landing = dataset.external_url | default: dataset.landing_page -%}
-        {%- assign jump = landing | default: first_res.url | default: dataset.url -%}
+        <h3><a href="{{ dataset.external_url | default: dataset.url | relative_url }}">{{ dataset.title }}</a></h3>
         <h3>
           <a href="{% if is_external %}{{ jump }}{% else %}{{ jump | relative_url }}{% endif %}"
             {% if is_external %}target="_blank" rel="noopener"{% endif %} >
