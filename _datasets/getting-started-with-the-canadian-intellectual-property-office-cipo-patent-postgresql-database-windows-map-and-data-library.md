@@ -8,3 +8,4 @@ resources:
     name: Guide Link
 external_url: https://kenlhlui.github.io/93-CIPO-Patent-PostgreSQL-Database/
 ---
+external_url: https://kenlhlui.github.io/93-CIPO-Patent-PostgreSQL-Database/
